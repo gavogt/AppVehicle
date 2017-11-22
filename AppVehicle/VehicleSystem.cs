@@ -9,7 +9,7 @@ namespace AppVehicle
     class VehicleSystem
     {
         List<Vehicle> vehicleList = new List<Vehicle>();
-        static int countStatic;
+        static int countStatic = 0;
 
         static void Main(string[] args)
         {
@@ -21,7 +21,7 @@ namespace AppVehicle
 
         private void Menu()
         {
-            string input;
+            string input = "";
             bool run = true;
 
             do

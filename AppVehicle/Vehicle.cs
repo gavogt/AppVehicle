@@ -8,9 +8,9 @@ namespace AppVehicle
 {
     public abstract class Vehicle
     {
-        protected int year;
-        protected string model;
-        private string make;
+        protected int year = 0;
+        protected string model = "";
+        private string make = "";
 
         public Vehicle()
         {
